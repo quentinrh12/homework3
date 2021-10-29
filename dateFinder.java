@@ -16,7 +16,7 @@ class dateFinder{
         List allDates = new ArrayList<>();
 
         Pattern pattern1 = Pattern.compile("(0[1-9]|1[12])/(0[1-9]|[12][0-9]|3[01])/[0-9][0-9][0-9][0-9]");
-        Pattern pattern2 = Pattern.compile("(0[1-9]|1[12])/(0[1-9]|[12][0-9]|3[01])/[0-9][0-9]");
+        Pattern pattern2 = Pattern.compile("(0[1-9]|1[12])/(0[1-9]|[12][0-9]|3[01])/[0-9][0-9]\b");
         Pattern pattern3 = Pattern.compile("[0-9][0-9][0-9][0-9]/(0[1-9]|1[12])/(0[1-9]|[12][0-9]|3[01])");
         Pattern pattern4 = Pattern.compile("(0[1-9]|1[12])(-0[1-9]|-[12][0-9]|-3[01])-[0-9][0-9][0-9][0-9]");
 
